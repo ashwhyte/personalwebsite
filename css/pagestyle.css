@@ -1,0 +1,61 @@
+@import 'https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Raleway:300,400,700';
+html, body {
+  margin: 0;
+  overflow-x: hidden; }
+
+body {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+.profile {
+  position: fixed;
+  top: 24%;
+  right: 15%;
+
+}
+
+.rounded {
+  border-radius: 50%;
+  border: 8px solid black;
+}
+
+.bg1 {
+  background-size: 100% 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2017/01/20/11/50/landscape-1994685_960_720.jpg);
+}
+
+.filter {
+  background-color: #000000aa;
+  height: 100vh;
+}
+
+p.info {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3em;
+  color: #ffffff;
+}
+
+.text {
+  padding-top: 10%;
+  margin-left: 8%;
+  width: 53%;
+}
+
+@media screen and (max-width: 768px) {
+
+  .profile {
+    margin: auto;
+    margin-top: 5%
+    top: 0%;
+    right: 0%;
+    left: 15%;
+    position: relative;
+  }
+
+}
